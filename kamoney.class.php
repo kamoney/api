@@ -157,7 +157,7 @@ class Kamoney
         return $this->query("/deposits");
     }
 
-    public function getDeposit($deposits)
+    public function getDeposit($deposit)
     {
         return $this->query("/deposits/" . $deposit);
     }
