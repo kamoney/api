@@ -5,8 +5,8 @@ class Kamoney
      * Arquivo criado pela de desenvolvimento Kamoney 
      */
     
-    private $public_key = 'YOUR PUBLIC KEY';
-    private $secret_key = 'YOUR SECRET KEY';
+    private $public_key = 'YOUR_PUBLIC_KEY';
+    private $secret_key = 'YOUR_SECRET_KEY';
     private $api = "https://api.kamoney.com.br";
 
     private function query($endpoint, $data = array(), $type = 'GET')
@@ -28,6 +28,8 @@ class Kamoney
             'public: ' . $this->public_key,
             'sign: ' . $sign,
         );
+
+        $url = $this->api . $endpoint;
 
         $ch = curl_init();
 
