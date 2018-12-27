@@ -1,30 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kamoney Checkout Example</title>
+</head>
+<body>
 <form id="form_enviar_contato" name="form_enviar_contato" action="http://127.0.0.1/portal/merchant/checkout" method="POST">
-	<strong>Valor:</strong>
-	<br>
-	<input required="required" type="hidden" name="amount" id="amount" value="546.25"/>
-	<br>
-	<strong>ID de comerciante:</strong>
-	<br>
-	<input required="required" type="hidden" name="merchant_id" id="merchant_id" value="37EDR135DQWECC0CCC7946B1C6281108010859C9"/>
-	<br>
-	<strong>Email do cliente:</strong>
-	<br>
-	<input required="required" type="hidden" name="email" id="email" value="claudeci@kamoney.com.br"/>
-	<br>
-	<strong>URL para redirecionamento:</strong>
-	<br>
-	<input required="required" type="hidden" name="url_redirect" id="url_redirect" value="https://www.meusite.com.br/checkout.php?id=O123456789"/>
-	<br>
-	<strong>URL para notificação:</strong>
-	<br>
-	<input type="hidden" name="callback" id="callback" value="https://www.meusite.com.br/confirm.php?id=O123456789"/>
-	<br>
-	<strong>Minha ordem de controle:</strong><br>
-	<input type="hidden" name="order_id" id="order_id" value="O123456789"/>
-	<br>
-	<strong>Informação adicional:</strong>
-	<br>
-	<input type="hidden" name="additional_info" id="additional_info" value="Compra de um tênis"/>
-	<br>
-	<input type="submit" name="btn_confirmar_compra" id="btn_confirmar_compra" value="Enviar">
+<strong>Valor:</strong>
+<br>
+<input required="required" type="hidden" name="amount" id="amount" value="546.25"/>
+<br>
+<strong>ID de comerciante:</strong>
+<br>
+<input required="required" type="hidden" name="merchant_id" id="merchant_id" value="37EDR135DQWECC0CCC7946B1C6281108010859C9"/>
+<br>
+<strong>Email do cliente:</strong>
+<br>
+<input required="required" type="hidden" name="email" id="email" value="claudeci@kamoney.com.br"/>
+<br>
+<strong>URL para redirecionamento:</strong>
+<br>
+<input required="required" type="hidden" name="url_redirect" id="url_redirect" value="https://www.meusite.com.br/checkout.php?id=O123456789"/>
+<br>
+<strong>URL para notificação:</strong>
+<br>
+<input type="hidden" name="callback" id="callback" value="https://www.meusite.com.br/confirm.php?id=O123456789"/>
+<br>
+<strong>Minha ordem de controle:</strong><br>
+<input type="hidden" name="order_id" id="order_id" value="O123456789"/>
+<br>
+<strong>Informação adicional:</strong>
+<br>
+<input type="hidden" name="additional_info" id="additional_info" value="Compra de um tênis"/>
+<br>
+<input type="submit" name="btn_confirmar_compra" id="btn_confirmar_compra" value="Enviar">
 </form>
+</body>
+</html>
