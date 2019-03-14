@@ -42,7 +42,7 @@ Deverão ser envidas, duas informações juntamente com o cabeçalho da sua sua 
 
 <strong>OBS:</strong> É necessário, em todas as requisições, enviar pelo menos um dado nonce, contendo o microtime atual.
 
-<strong>ATENÇÃO: Não envie sua chave secreta. Ela não deve ser esposta em nenhum momento. Caso isso ocorra, exclusa imediatamente sua API, e gete uma nova, por questões de segurança</strong>
+<strong>ATENÇÃO: Não envie sua chave secreta. Ela não deve ser exposta em nenhum momento. Caso isso ocorra, exclusa imediatamente sua API, e gete uma nova, por questões de segurança</strong>
 
 <h3>Exemplo de HMAC em PHP</h3>
 
