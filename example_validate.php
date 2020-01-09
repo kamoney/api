@@ -14,12 +14,13 @@ if ($signature != $signature_valid) { // a assinatura não confere
 }
 
 // tudo ok para processamento da venda
-$id = sanitize_text_field($_POST["id"]);
-$status_code = sanitize_text_field($_POST["status_code"]);
-$currency = sanitize_text_field($_POST["currency"]);
-$currency_name = sanitize_text_field($_POST["currency_name"]);
-$address = sanitize_text_field($_POST["address"]);
-$txid = sanitize_text_field($_POST["txid"]);
+$id = $_POST["id"];
+$time = $_POST["time"];
+$status_code = $_POST["status_code"];
+$currency = $_POST["currency"];
+$currency_name = $_POST["currency_name"];
+$address = $_POST["address"];
+$txid = $_POST["txid"];
 $amount = floatval($_POST["amount"]);
 $amount_order = floatval($_POST["amount_order"]);
 $amount_order_partial = floatval($_POST["amount_order_partial"]);
